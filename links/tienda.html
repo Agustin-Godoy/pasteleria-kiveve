@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Tienda Online &#124; Kiveve</title>
+</head>
+<body>
+        <header class="encabezado">
+            <h2 class="encabezado__titulo">Kiveve</h2>
+        
+            <nav class="encabezado__menu">
+                <ul>
+                    <li><a class="encabezado__menu--link" href="../index.html">Inicio</a></li>
+                    <li><a class="encabezado__menu--link" href="../links/tienda.html">Tienda</a></li>
+                    <li><a class="encabezado__menu--link" href="../links/nosotros.html">Nosotros</a></li>
+                    <li><a class="encabezado__menu--link" href="../links/sucursales.html">Sucursales</a></li>
+                </ul>
+                
+            </nav>
+            <div class="carrito">
+                <img src="../Imagenes/carro-de-la-compra.png" alt="" width="40px" height="35px">
+            </div>
+       </header>
+       <h1>Tienda Online</h1>
+    <main class="tienda">
+        <aside class="filtro">
+                <!--BUSCADOR, BARRA DE PRECIOS, CATEGORIAS-->
+                <form action="envia.php" method="post" target="_blank">
+                    <p>
+                
+                    Buscar Productos <input type="search" name="Productos" placeholder="Buscar Productos">
+                
+                    <input type="submit" value="Buscar">
+                
+                    </p>
+                </form>
+                <div class="categorias"> 
+                    <h2 class="title">Categorias</h3>
+                    <ul>
+                        <li>Desayunos</li>
+                        <li>Tartas y Tortas</li>
+                        <li>Panes</li>
+                        <li>Veganos</li>
+                        <li>Postres</li>
+                        <li>Catering-Eventos</li>
+                    </ul>
+                </div>
+        </aside>
+
+        <article class="articulo">
+                <ul>
+                    <li><img src="../Imagenes/lemonpie.jpg" alt="lemon pie"></li>
+                    <li><img src="../Imagenes/chocotorta.jpg" alt="chocotorta"></li>
+                </ul>
+        </article>
+    </main> 
+    
+    <footer class="pie">            
+        <h4 class="pie__titulo">Seguinos en:</h4>
+        <i class="fa fa-instagram" style="color: rgb(202, 58, 58)"></i>
+        <a class="pie__link" href="https://www.instagram.com/kivevepatisserie/">Kiveve Patisserie
+        </a>
+    </footer>
+</body>
+</html>
