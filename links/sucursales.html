@@ -41,21 +41,19 @@
    </section>
    <!---->
         <h3>Contacto</h3>
-        <form action="envia.php" method="POST" enctype="multipart/form-data">
-        <fieldset>
-            <legend>Envia tus Preguntas</legend>
-            <label for="NombreyApellido">NombreyApellido</label>
-            <input type="text" name="NombreyApellido" maxlength="100">
-            <br>
-            <label for="email">Email</label>
-            <input type="email" name="email" placeholder="nombre@gmail.com">
-            <br>
-            <textarea name="" id="" cols="30" rows="5">Escribe aquí tus sugerencias</textarea>
-            <br>
-            <input type="reset" value="Limpiar Formulario">
-            <input type="submit" value="Envíar">
-            <button type="submit">enviar</button> 
-        </form>
+        <div class="container">
+            <h2>Formulario Básico</h2>
+             <form action="#">
+               <div class="form-group">
+                 <label for="email">Email:</label>
+                 <input type="email" class="form-control" id="email" placeholder="Ingrese email" name="email">
+               </div>
+                     
+               <button type="submit" class="btn btn-default">
+                           Ingresar
+                      </button>
+             </form>
+        </div>
 
   <footer class="pie">            
             <h4 class="pie__titulo">Seguinos en:</h4>
