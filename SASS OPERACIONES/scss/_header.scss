@@ -1,0 +1,29 @@
+.carousel{
+    margin-bottom: 50px;
+}
+
+.encabezado{
+    background-image: linear-gradient(#74818a, #D4E6F1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    
+    .encabezado__titulo{
+        margin-left: 25px ;
+    }
+
+    ul{
+        list-style-type: none;
+
+        li{
+            display:inline-block;
+            margin-left: 80px;
+            margin-right: 80px;
+            a{
+                color: rgb(250, 250, 250);
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+/*Desayunos*/
+.desayuno {
+  margin: auto;
+  margin-bottom: 8%;
+  margin-top: 5%;
+}
+.desayuno .desayuno-text {
+  margin: auto;
+  margin-top: 4%;
+  font-family: "Playfair Display", serif;
+}
+
+.carousel {
+  margin-bottom: 50px;
+}
+
+.encabezado {
+  background-image: linear-gradient(#74818a, #D4E6F1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Playfair Display", serif;
+}
+.encabezado .encabezado__titulo {
+  margin-left: 25px;
+}
+.encabezado ul {
+  list-style-type: none;
+}
+.encabezado ul li {
+  display: inline-block;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.encabezado ul li a {
+  color: #fafafa;
+}
+
+/*# sourceMappingURL=style.css.map */
