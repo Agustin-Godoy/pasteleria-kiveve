@@ -2,13 +2,30 @@
 
 .desayuno{
     margin: auto;
-    margin-bottom: 8%;
+    margin-bottom: 6%;
     margin-top: 5%;
  
     .desayuno-text{
         margin: auto;
         margin-top: 4%;
         font-family: 'Playfair Display', serif;
+
+        button{
+
+            a{
+                color: black;
+            }
+        }
     }
  }
- 
+
+ .button_large{
+     background-color: black;
+     margin-top: 5%;
+     margin-bottom: 5%; 
+
+     a{
+         color: white;
+     }
+}    
+      

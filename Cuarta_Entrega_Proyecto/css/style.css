@@ -1,13 +1,25 @@
 /*Desayunos*/
 .desayuno {
   margin: auto;
-  margin-bottom: 8%;
+  margin-bottom: 6%;
   margin-top: 5%;
 }
 .desayuno .desayuno-text {
   margin: auto;
   margin-top: 4%;
   font-family: "Playfair Display", serif;
+}
+.desayuno .desayuno-text button a {
+  color: black;
+}
+
+.button_large {
+  background-color: black;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.button_large a {
+  color: white;
 }
 
 .carousel {
@@ -36,5 +48,7 @@
 .encabezado ul li a {
   color: #fafafa;
 }
+
+/*Tienda*/
 
 /*# sourceMappingURL=style.css.map */
