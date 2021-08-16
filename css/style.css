@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 /*Desayunos*/
 .desayuno {
   margin: auto;
@@ -47,6 +51,13 @@
 }
 .encabezado ul li a {
   color: #fafafa;
+}
+
+/*FOOTER*/
+footer {
+  width: 100%;
+  background-color: #202020;
+  color: white;
 }
 
 /*Tienda*/
